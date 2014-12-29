@@ -6,13 +6,13 @@
 //  Copyright (c) 2014年 CTTQ. All rights reserved.
 //
 
-#import "SecondViewController.h"
+#import "AMInspectViewController.h"
 
-@interface SecondViewController ()
+@interface AMInspectViewController ()
 
 @end
 
-@implementation SecondViewController
+@implementation AMInspectViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -6,15 +6,15 @@
 //  Copyright (c) 2014年 CTTQ. All rights reserved.
 //
 
-#import "FirstViewController.h"
+#import "AMMainViewController.h"
 #import <AFNetworking.h>
 
 
-@interface FirstViewController ()
+@interface AMMainViewController ()
 
 @end
 
-@implementation FirstViewController
+@implementation AMMainViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
