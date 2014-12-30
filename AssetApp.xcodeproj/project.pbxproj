@@ -13,6 +13,9 @@
 		34C40F911A51192600452291 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34C40F901A51192600452291 /* Images.xcassets */; };
 		34C40F941A51192600452291 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34C40F921A51192600452291 /* LaunchScreen.xib */; };
 		34C40FA01A51192600452291 /* AssetAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C40F9F1A51192600452291 /* AssetAppTests.m */; };
+		34E1CAD71A52443E00A29739 /* AMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E1CAD21A52443E00A29739 /* AMBaseViewController.m */; };
+		34E1CAD81A52443E00A29739 /* AMNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E1CAD41A52443E00A29739 /* AMNavigationViewController.m */; };
+		34E1CAD91A52443E00A29739 /* AMTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E1CAD61A52443E00A29739 /* AMTableViewController.m */; };
 		651A94951A5160620012A001 /* AMMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 651A94941A5160620012A001 /* AMMainViewController.m */; };
 		651A94981A5160820012A001 /* AMInspectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 651A94971A5160820012A001 /* AMInspectViewController.m */; };
 		C87F9CD3B927DBAA71466A9F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DBDCDBFA84CD8E013513ABC5 /* libPods.a */; };
@@ -41,6 +44,17 @@
 		34C40F991A51192600452291 /* AssetAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssetAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34C40F9E1A51192600452291 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34C40F9F1A51192600452291 /* AssetAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssetAppTests.m; sourceTree = "<group>"; };
+		34E1CABB1A522F6B00A29739 /* AMConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMConstants.h; sourceTree = "<group>"; };
+		34E1CABC1A522F9100A29739 /* AMColorConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMColorConstants.h; sourceTree = "<group>"; };
+		34E1CABD1A522FD600A29739 /* AMStringConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMStringConstants.h; sourceTree = "<group>"; };
+		34E1CABE1A522FF200A29739 /* AMFontConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMFontConstants.h; sourceTree = "<group>"; };
+		34E1CABF1A52300700A29739 /* AMUIConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMUIConstants.h; sourceTree = "<group>"; };
+		34E1CAD11A52443E00A29739 /* AMBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMBaseViewController.h; sourceTree = "<group>"; };
+		34E1CAD21A52443E00A29739 /* AMBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMBaseViewController.m; sourceTree = "<group>"; };
+		34E1CAD31A52443E00A29739 /* AMNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMNavigationViewController.h; sourceTree = "<group>"; };
+		34E1CAD41A52443E00A29739 /* AMNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMNavigationViewController.m; sourceTree = "<group>"; };
+		34E1CAD51A52443E00A29739 /* AMTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMTableViewController.h; sourceTree = "<group>"; };
+		34E1CAD61A52443E00A29739 /* AMTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMTableViewController.m; sourceTree = "<group>"; };
 		651A94931A5160620012A001 /* AMMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMMainViewController.h; sourceTree = "<group>"; };
 		651A94941A5160620012A001 /* AMMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMMainViewController.m; sourceTree = "<group>"; };
 		651A94961A5160820012A001 /* AMInspectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMInspectViewController.h; sourceTree = "<group>"; };
@@ -97,9 +111,10 @@
 				651A94891A515DF80012A001 /* 04Other */,
 				651A94701A515AA20012A001 /* Model */,
 				651A94751A515BA10012A001 /* Interfaces */,
-				651A94711A515AA20012A001 /* PublicUI */,
 				34C40F8D1A51192600452291 /* Main.storyboard */,
 				34C40F921A51192600452291 /* LaunchScreen.xib */,
+				34E1CAC01A52408100A29739 /* Public */,
+				34E1CABA1A522F1100A29739 /* Constants */,
 				34C40F801A51192600452291 /* Supporting Files */,
 			);
 			path = AssetApp;
@@ -134,18 +149,44 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		34E1CABA1A522F1100A29739 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				34E1CABB1A522F6B00A29739 /* AMConstants.h */,
+				34E1CABE1A522FF200A29739 /* AMFontConstants.h */,
+				34E1CABD1A522FD600A29739 /* AMStringConstants.h */,
+				34E1CABC1A522F9100A29739 /* AMColorConstants.h */,
+				34E1CABF1A52300700A29739 /* AMUIConstants.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		34E1CAC01A52408100A29739 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				34E1CAD01A52443E00A29739 /* Base */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		34E1CAD01A52443E00A29739 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				34E1CAD11A52443E00A29739 /* AMBaseViewController.h */,
+				34E1CAD21A52443E00A29739 /* AMBaseViewController.m */,
+				34E1CAD31A52443E00A29739 /* AMNavigationViewController.h */,
+				34E1CAD41A52443E00A29739 /* AMNavigationViewController.m */,
+				34E1CAD51A52443E00A29739 /* AMTableViewController.h */,
+				34E1CAD61A52443E00A29739 /* AMTableViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		651A94701A515AA20012A001 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		651A94711A515AA20012A001 /* PublicUI */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = PublicUI;
 			sourceTree = "<group>";
 		};
 		651A94751A515BA10012A001 /* Interfaces */ = {
@@ -468,8 +509,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34E1CAD91A52443E00A29739 /* AMTableViewController.m in Sources */,
 				651A94951A5160620012A001 /* AMMainViewController.m in Sources */,
 				34C40F861A51192600452291 /* AppDelegate.m in Sources */,
+				34E1CAD81A52443E00A29739 /* AMNavigationViewController.m in Sources */,
+				34E1CAD71A52443E00A29739 /* AMBaseViewController.m in Sources */,
 				34C40F831A51192600452291 /* main.m in Sources */,
 				651A94981A5160820012A001 /* AMInspectViewController.m in Sources */,
 			);
@@ -596,6 +640,7 @@
 			baseConfigurationReference = 0C072182A5642A76D582E559 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = AssetApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -608,6 +653,7 @@
 			baseConfigurationReference = F9BBB96D8EFA46700D5289B7 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = AssetApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
